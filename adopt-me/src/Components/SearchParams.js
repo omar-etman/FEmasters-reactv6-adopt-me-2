@@ -1,18 +1,26 @@
 import React from "react";
 import { useState, useEffect } from "react";
 import Pet from "./Pet";
+import useBreedList from "./useBreedList";
 
 const ANIMALS = ["bird", "cat", "dog", "rabbit", "reptile"];
 const SearchParams = () => {
-  const [location, setLocation] = useState("Seattle, WA");
+  const [location, setLocation] = useState("");
   const [animal, setAnimal] = useState("");
   const [breed, setBreed] = useState("");
   const [pets, setPets] = useState([]);
-  const breeds = [];
+  const [breeds] = useBreedList(animal)
 
   useEffect(()=>{
     requestPets();
-  }, [])
+  }, []) //eslint-disable-line react-hooks/exhaustive-deps
+
+  useEffect(()=>{
+    const timer = setTimeout(() => alert('hi'), 3000);
+    return () => clearTimeout(timer);
+  },[animal])
+
+  
 
   async function requestPets(){
     const res = await fetch(
@@ -21,7 +29,10 @@ const SearchParams = () => {
     const json = await res.json();
     console.log(json);
     setPets(json.pets);
+
   }
+
+
   
   const updateLocation = (e) => {
     setLocation(e.target.value);
