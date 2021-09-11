@@ -15,10 +15,10 @@ const SearchParams = () => {
     requestPets();
   }, []) //eslint-disable-line react-hooks/exhaustive-deps
 
-  useEffect(()=>{
-    const timer = setTimeout(() => alert('hi'), 3000);
-    return () => clearTimeout(timer);
-  },[animal])
+  // useEffect(()=>{
+  //   const timer = setTimeout(() => alert('hi'), 3000);
+  //   return () => clearTimeout(timer);
+  // },[animal])
 
   
 
