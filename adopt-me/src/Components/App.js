@@ -1,4 +1,4 @@
-import './style.css'
+import '../style.css'
 import Pet from "./Pet";
 import SearchParams from "./SearchParams";
 
