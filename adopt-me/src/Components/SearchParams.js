@@ -1,5 +1,6 @@
 import React from "react";
-import { useState, useEffect } from "react";
+import { useState, useEffect, useContext } from "react";
+import ThemeContext from './ThemeContext'
 import Results from "./Results";
 import useBreedList from "./useBreedList";
 
@@ -10,17 +11,11 @@ const SearchParams = () => {
   const [breed, setBreed] = useState("");
   const [pets, setPets] = useState([]);
   const [breeds] = useBreedList(animal)
+  const [theme, setTheme] = useContext(ThemeContext);
 
   useEffect(()=>{
     requestPets();
   }, []) //eslint-disable-line react-hooks/exhaustive-deps
-
-  // useEffect(()=>{
-  //   const timer = setTimeout(() => alert('hi'), 3000);
-  //   return () => clearTimeout(timer);
-  // },[animal])
-
-  
 
   async function requestPets(){
     const res = await fetch(
@@ -97,8 +92,21 @@ const SearchParams = () => {
             ))}
           </select>
         </label>
+        <label htmlFor="theme">
+          Theme
+          <select
+            value={theme}
+            onChange={e => setTheme(e.target.value)}
+            onBlur={e => setTheme(e.target.value)}
+          >
+            <option value="darkblue">Dark blue</option>
+            <option value="chartreuse">Chartreuse</option>
+            <option value="peru">Peru</option>
+            <option value="mediumorchid">Medium Orchid</option>
+          </select>
 
-        <button>Submit</button>
+        </label>
+        <button style={ {backgroundColor: theme} }>Submit</button>
       </form>
         <Results pets={pets}/>
     </div>
