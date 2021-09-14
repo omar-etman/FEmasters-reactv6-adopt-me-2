@@ -15,7 +15,6 @@ export class Details extends Component {
             Object.assign(
                 {
                     loading: false,
-                    name: json.pets[0].name,
                 },
                 json.pets[0]
             )
