@@ -1,0 +1,113 @@
+[33mcommit 8311b12577105940e429fca2ad10fd5c5570578b[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m
+Author: omar-etman <omartareketman@gmail.com>
+Date:   Tue Oct 5 00:59:04 2021 +0200
+
+    setup tailwid css + apply background img class and header gradient
+
+[33mcommit 10e35f1aaee00257e49da247479b2cff812f779c[m
+Author: omar-etman <omartareketman@gmail.com>
+Date:   Tue Sep 14 10:51:43 2021 +0200
+
+    implement modal
+
+[33mcommit 7c76265be18e3d660cc09437082633166c78aa78[m
+Author: omar-etman <omartareketman@gmail.com>
+Date:   Tue Sep 14 10:20:51 2021 +0200
+
+    setup modal with useRef and portal
+
+[33mcommit 38dc7b32d78cb3497c70b2c51697b25a53af6529[m
+Author: omar-etman <omartareketman@gmail.com>
+Date:   Tue Sep 14 10:04:15 2021 +0200
+
+    implement the Theme Context
+
+[33mcommit c9433f500cbeca982d05e5742f33315fd3463020[m
+Author: omar-etman <omartareketman@gmail.com>
+Date:   Tue Sep 14 09:02:25 2021 +0200
+
+    setup context
+
+[33mcommit 99963987bf9b8a3b8d737eda4239d5c48b115a9a[m
+Author: omar-etman <omartareketman@gmail.com>
+Date:   Tue Sep 14 07:53:52 2021 +0200
+
+    redirect error
+
+[33mcommit e75b373508e9efee116843e10ddb83a27a686e0c[m
+Author: omar-etman <omartareketman@gmail.com>
+Date:   Tue Sep 14 07:44:12 2021 +0200
+
+    setup error boundary
+
+[33mcommit 154ecfe02fb122a98c3ff2ffc8f0eb3ebe10f7ac[m
+Author: omar-etman <omartareketman@gmail.com>
+Date:   Tue Sep 14 07:02:15 2021 +0200
+
+    make the carousel class interactive
+
+[33mcommit 43597d8fe0ff98a73ee6ca213446a68f21124a59[m
+Author: omar-etman <omartareketman@gmail.com>
+Date:   Mon Sep 13 18:44:01 2021 +0200
+
+    setup the carousel component
+
+[33mcommit 2f64a9510dbabe7827ebbddb140d4cbcf1d592a0[m
+Author: omar-etman <omartareketman@gmail.com>
+Date:   Sat Sep 11 07:09:22 2021 +0200
+
+    implement details class component
+
+[33mcommit e2f05a5caed1146eb9a2234f906ac97aedc7ac90[m
+Author: omar-etman <omartareketman@gmail.com>
+Date:   Sat Sep 11 06:24:41 2021 +0200
+
+    apply the link component
+
+[33mcommit 161eae839c96e094efa995a47c6d586fcb2b4ce5[m
+Author: omar-etman <omartareketman@gmail.com>
+Date:   Sat Sep 11 05:51:38 2021 +0200
+
+    setup react router
+
+[33mcommit 25c2c7f7080b0280028858c9bf555a47443c4544[m
+Author: omar-etman <omartareketman@gmail.com>
+Date:   Sat Sep 11 04:49:52 2021 +0200
+
+    refactor the pet component
+
+[33mcommit 1964cdf7d70175a400f8328004b939b7f62f8e44[m
+Author: omar-etman <omartareketman@gmail.com>
+Date:   Sat Sep 11 04:23:46 2021 +0200
+
+    component composition
+
+[33mcommit 92b9b140cb98c63f84d7839985b08c51c0a13e4c[m
+Author: omar-etman <omartareketman@gmail.com>
+Date:   Sat Sep 11 03:58:27 2021 +0200
+
+    handle user input
+
+[33mcommit 804b576b7a895ae285bad1c2f714e87c8d2f61d9[m
+Author: omar-etman <omartareketman@gmail.com>
+Date:   Sat Sep 11 03:47:15 2021 +0200
+
+    setup custom hook
+
+[33mcommit 7873bac576fc93ca6fca56b94d2f866a8b8f1af7[m
+Author: omar-etman <omartareketman@gmail.com>
+Date:   Sat Sep 11 02:22:57 2021 +0200
+
+    setup the useEffect hook
+
+[33mcommit ceed416c00fb28ed78c135615065837ab7e39d7a[m
+Author: omar-etman <omartareketman@gmail.com>
+Date:   Sat Sep 11 02:01:39 2021 +0200
+
+    setup file , pickup from useEffect
+
+[33mcommit 1a73fa42e1a5b3de26327a34ea0a5022eb263255[m
+Author: omar-etman <omartareketman@gmail.com>
+Date:   Sat Sep 11 01:30:56 2021 +0200
+
+    Initial commit
